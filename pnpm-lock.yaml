@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@salimabsi/prettier-config':
+    specifier: ^0.1.1
+    version: 0.1.1
   '@types/node':
     specifier: 20.1.4
     version: 20.1.4
@@ -25,6 +28,9 @@ dependencies:
   postcss:
     specifier: 8.4.23
     version: 8.4.23
+  prettier:
+    specifier: ^2.8.8
+    version: 2.8.8
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -269,6 +275,10 @@ packages:
 
   /@rushstack/eslint-patch@1.2.0:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
+    dev: false
+
+  /@salimabsi/prettier-config@0.1.1:
+    resolution: {integrity: sha512-9n0OIltP64k+N8nYBJlnfNki31DHl2fwmklQQFlIPsgAjyvMxcNwhcLsM/RWjP2bNqU6EpBWOKkVBTus5LoBqw==}
     dev: false
 
   /@swc/helpers@0.5.1:
@@ -2196,6 +2206,12 @@ packages:
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+    dev: false
+
+  /prettier@2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: false
 
   /prop-types@15.8.1:
