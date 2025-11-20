@@ -7,13 +7,13 @@ export default function Home() {
 
       <div className="mt-4 space-y-6 leading-relaxed text-neutral-700">
         <p>
-          I’m a Software Developer, sometimes nerd, and I love chatting with calm, thoughtful people.
+          I’m a Software Developer, sometimes nerd, and I love chatting with calm and smart people.
         </p>
 
         <p>
-          I've been profissionally working in software development for ~5 years, These days. I work mostly with <span className="font-mono text-black">`Go`</span> for backend services and{' '}
-          <span className="font-mono text-black">`React`</span>, <span className="font-mono text-black">`Next.js`</span>, and{' '}
-          <span className="font-mono text-black">`Tailwind CSS`</span> for the frontend. Now, I’m focused on learning applied algorithms and advanced cloud-native architectures.
+          I&apos;ve been profissionally working in software development for ~5 years now. These days, I work mostly with <span className="font-mono text-rose-600">`Go`</span> for backend services and{' '}
+          <span className="font-mono text-rose-600">`React`</span>, <span className="font-mono text-rose-600">`Next.js`</span>, and{' '}
+          <span className="font-mono text-rose-600">`Tailwind CSS`</span> for the frontend. Now, I’m focused on learning applied algorithms and advanced cloud-native architectures.
         </p>
 
         <p>

@@ -11,7 +11,7 @@
 @theme inline {
   --font-sans: var(--font-red-hat-text);
   --font-display: var(--font-red-hat-display);
-  --font-mono: var(--font-fira-code);
+  --font-mono: var(--font-roboto-mono);
 }
 
 body {
