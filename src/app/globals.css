@@ -9,8 +9,9 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-nunito);
-  --font-mono: var(--font-mono);
+  --font-sans: var(--font-red-hat-text);
+  --font-display: var(--font-red-hat-display);
+  --font-mono: var(--font-fira-code);
 }
 
 body {

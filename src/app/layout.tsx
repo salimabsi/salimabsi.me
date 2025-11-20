@@ -1,19 +1,25 @@
 import type { Metadata } from 'next'
-import { Nunito, JetBrains_Mono } from 'next/font/google'
+import { Red_Hat_Display, Red_Hat_Text, Fira_Code } from 'next/font/google'
 import Image from 'next/image'
 import Link from 'next/link'
 import './globals.css'
 
-const nunito = Nunito({
-  variable: '--font-nunito',
+const redHatText = Red_Hat_Text({
+  variable: '--font-red-hat-text',
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
 })
 
-const jetBrainsMono = JetBrains_Mono({
-  variable: '--font-mono',
+const redHatDisplay = Red_Hat_Display({
+  variable: '--font-red-hat-display',
   subsets: ['latin'],
-  weight: ['400', '700'],
+  weight: ['400', '500', '600', '700'],
+})
+
+const firaCode = Fira_Code({
+  variable: '--font-fira-code',
+  subsets: ['latin'],
+  weight: ['400', '500'],
 })
 
 export const metadata: Metadata = {
@@ -29,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${nunito.variable} ${jetBrainsMono.variable} bg-white text-neutral-900 antialiased font-sans transition-colors duration-300`}
+        className={`${redHatText.variable} ${redHatDisplay.variable} ${firaCode.variable} bg-white text-neutral-900 antialiased font-sans transition-colors duration-300`}
       >
         <div className="flex min-h-screen justify-center px-6 py-20">
           <div className="w-full max-w-3xl space-y-12">

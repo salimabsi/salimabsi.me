@@ -1,24 +1,23 @@
 export default function Home() {
   return (
     <div className="tracking-tight">
-      <h1 className="text-xl font-bold text-neutral-900">
+      <h1 className="text-xl font-bold font-display text-neutral-900">
         Hi, I&apos;m Salim Absi 👋
       </h1>
 
-      <div className="mt-4 space-y-6 text-lg leading-relaxed text-neutral-700">
+      <div className="mt-4 space-y-6 leading-relaxed text-neutral-700">
         <p>
-          I&apos;m a software engineer, who builds fast and reliable web applications.
+          I’m a Software Developer, sometimes nerd, and I love chatting with calm, thoughtful people.
         </p>
 
         <p>
-          I work mostly with <span className="font-semibold">Go</span> for backend services and{' '}
-          <span className="font-semibold">React</span>, <span className="font-semibold">Next.js</span>, and{' '}
-          <span className="font-semibold">Tailwind CSS</span> for the frontend. I build cloud-native applications
-          that scale and deploy them on modern platforms.
+          I've been profissionally working in software development for ~5 years, These days. I work mostly with <span className="font-mono text-black">`Go`</span> for backend services and{' '}
+          <span className="font-mono text-black">`React`</span>, <span className="font-mono text-black">`Next.js`</span>, and{' '}
+          <span className="font-mono text-black">`Tailwind CSS`</span> for the frontend. Now, I’m focused on learning applied algorithms and advanced cloud-native architectures.
         </p>
 
         <p>
-          In my free time, you can find me testing internal std libs, or making hot chocolate with airpods on my head listening to podcasts in various topics.
+          In my free time, you can find me testing internal std libs, automating random things, or in the kitchen making things that make me happy.
         </p>
       </div>
 
