@@ -80,8 +80,8 @@ export default function UsesPage() {
   return (
     <section className="space-y-10">
       <header className="space-y-2">
-        <h1 className="text-2xl font-bold text-neutral-900 font-display">Uses</h1>
-        <p className="text-neutral-600">
+        <h1 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-display">Uses</h1>
+        <p className="text-neutral-600 dark:text-neutral-300">
           Tools and software I use daily to get my work done and stay productive.
         </p>
       </header>
@@ -89,23 +89,23 @@ export default function UsesPage() {
       <div className="space-y-10">
         {toolGroups.map((group) => (
           <div key={group.category} className="space-y-6">
-            <h2 className="text-xl font-bold text-neutral-900 font-display">{group.category}</h2>
+            <h2 className="text-xl font-bold text-neutral-900 dark:text-neutral-100 font-display">{group.category}</h2>
             <div className="space-y-4">
               {group.items.map((tool) => (
                 <div key={tool.title} className="flex gap-3">
-                  <span className="text-neutral-400 mt-0.5">-</span>
+                  <span className="text-neutral-400  mt-0.5">-</span>
                   <div className="flex-1 space-y-1">
                     <h3 className="font-bold font-display">
                       <a
                         href={tool.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-neutral-900 underline hover:text-neutral-600 transition"
+                        className="text-neutral-900 dark:text-neutral-100 underline hover:text-neutral-600 dark:hover:text-neutral-300 transition"
                       >
                         {tool.title}
                       </a>
                     </h3>
-                    <p className="text-neutral-600">{tool.description}</p>
+                    <p className="text-neutral-600 dark:text-neutral-300">{tool.description}</p>
                   </div>
                 </div>
               ))}
