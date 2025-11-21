@@ -63,6 +63,11 @@ const toolGroups = [
         description: "I've been using Notion for a long time for my notes and random silly things, but I found Obsidian much better. The files are in markdown, which keeps me focused on the content rather than all the extra features I don’t really need.",
       },
       {
+        title: 'CleanShot X',
+        link: 'https://cleanshot.com/',
+        description: "A one-time purchase I use all the time. The annotation editor that pops up right after taking the screenshot is super handy, it lets me quickly write notes, highlight things, and share with others instantly. I love it.",
+      },
+      {
         title: 'Raycast',
         link: 'https://www.raycast.com/',
         description: "I didn't imagine there was a tool like it. I use it for everything, from launching apps and running actions to quick calculations, managing clipboard history, and many other I don't know features.",
