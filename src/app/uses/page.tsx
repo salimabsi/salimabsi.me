@@ -70,12 +70,12 @@ const toolGroups = [
       {
         title: 'Raycast',
         link: 'https://www.raycast.com/',
-        description: "I didn't imagine there was a tool like it. I use it for everything, from launching apps and running actions to quick calculations, managing clipboard history, and many other I don't know features.",
+        description: "I didn't imagine there was a tool like it. I use it for everything – launching apps, quick calculations, viewing clipboard history, and many other I don't remember cool features.",
       },
       {
         title: 'ChatGPT Atlas',
         link: 'https://chatgpt.com/atlas/',
-        description: "I used to read the full docs of everything I work with, doing so with GPT and Claude’s assistance, but now Atlas solved the problem. It has page and selection awareness. I never close it.",
+        description: "I used to read the full docs of everything I work with, usually with ChatGPT and Claude’s assistance, but now Atlas solved the problem. The built-in \"Ask ChatGPT\" side window has page and selection awareness. I just select and ask, it's that simple. I never close it.",
       },
     ],
   },
