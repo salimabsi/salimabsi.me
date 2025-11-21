@@ -5,7 +5,7 @@ export default function Home() {
         Hi, I’m Salim Absi 👋
       </h1>
 
-      <div className="mt-4 space-y-6 leading-relaxed text-neutral-700 dark:text-neutral-300">
+      <div className="mt-6 space-y-6 leading-relaxed text-neutral-700 dark:text-neutral-300">
         <p>
           I’m a Software Developer, sometimes nerd, and I love chatting with calm and smart people.
         </p>
@@ -21,7 +21,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="mt-8 flex items-center gap-4">
+      <div className="mt-10 flex items-center gap-4">
         <a
           href="https://linkedin.com/in/salimabsi"
           target="_blank"

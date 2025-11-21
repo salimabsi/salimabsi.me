@@ -78,7 +78,7 @@ const toolGroups = [
 
 export default function UsesPage() {
   return (
-    <section className="space-y-10">
+    <section className="space-y-8">
       <header className="space-y-2">
         <h1 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-display">Uses</h1>
         <p className="text-neutral-600 dark:text-neutral-300">
@@ -86,9 +86,9 @@ export default function UsesPage() {
         </p>
       </header>
 
-      <div className="space-y-10">
+      <div className="space-y-8">
         {toolGroups.map((group) => (
-          <div key={group.category} className="space-y-6">
+          <div key={group.category} className="space-y-5">
             <h2 className="text-xl font-bold text-neutral-900 dark:text-neutral-100 font-display">{group.category}</h2>
             <div className="space-y-4">
               {group.items.map((tool) => (
@@ -100,7 +100,7 @@ export default function UsesPage() {
                         href={tool.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-neutral-900 dark:text-neutral-100 underline hover:text-neutral-600 dark:hover:text-neutral-300 transition"
+                        className="text-neutral-900 dark:text-neutral-100 underline hover:text-neutral-600 dark:hover:text-neutral-300"
                       >
                         {tool.title}
                       </a>

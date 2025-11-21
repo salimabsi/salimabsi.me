@@ -13,18 +13,21 @@ const redHatText = Red_Hat_Text({
   variable: '--font-red-hat-text',
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
+  display: 'swap',
 })
 
 const redHatDisplay = Red_Hat_Display({
   variable: '--font-red-hat-display',
   subsets: ['latin'],
   weight: ['700'],
+  display: 'swap',
 })
 
 const robotoMono = Roboto_Mono({
   variable: '--font-roboto-mono',
   subsets: ['latin'],
   weight: ['400'],
+  display: 'swap',
 })
 
 export const metadata: Metadata = {
@@ -32,20 +35,16 @@ export const metadata: Metadata = {
   description: "Salim Absi's personal website",
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body
         className={cn(redHatText.variable, redHatDisplay.variable, robotoMono.variable, 'bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 antialiased font-sans')}
       >
         <ThemeProvider>
-          <div className="flex min-h-screen justify-center px-6 py-20">
-            <div className="w-full max-w-2xl space-y-12">
-              <header className="flex items-center justify-between">
+          <div className="flex min-h-screen justify-center px-6 py-16">
+            <div className="w-full max-w-2xl space-y-16">
+              <header className="flex items-center justify-between gap-8">
                 <div className="flex items-center gap-4">
                   <Link href="/">
                     <div className="h-16 w-16 overflow-hidden rounded-md">
