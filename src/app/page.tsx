@@ -26,6 +26,7 @@ export default function Home() {
           href="https://linkedin.com/in/salimabsi"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Connect with Salim Absi on LinkedIn"
           className="text-neutral-500 dark:text-neutral-400 transition hover:text-neutral-900 dark:hover:text-neutral-100"
         >
           <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" className="size-6">
@@ -36,6 +37,7 @@ export default function Home() {
           href="https://github.com/salimabsi"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="View Salim Absi's GitHub profile"
           className="text-neutral-500 dark:text-neutral-400 transition hover:text-neutral-900 dark:hover:text-neutral-100"
         >
           <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" className="size-6">
@@ -46,6 +48,7 @@ export default function Home() {
           href="https://x.com/SalimAbsiX"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Follow Salim Absi on X (Twitter)"
           className="text-neutral-500 dark:text-neutral-400 transition hover:text-neutral-900 dark:hover:text-neutral-100"
         >
           <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" className="size-6">
