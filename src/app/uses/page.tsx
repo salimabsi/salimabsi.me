@@ -35,7 +35,7 @@ const toolGroups = [
       {
         title: 'TablePlus',
         link: 'https://tableplus.com/',
-        description: 'I use it to manage all databases, its simple and clean inteface let me focus on the data rather than the tool itself. Never thought of something else.',
+        description: 'I use it to manage all databases, its simple and clean interface let me focus on the data rather than the tool itself. Never thought of something else.',
       },
       {
         title: 'Atom One Dark Theme (Night Flat)',
