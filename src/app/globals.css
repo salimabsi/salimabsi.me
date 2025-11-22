@@ -1,6 +1,13 @@
 @import 'tailwindcss';
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-red-hat-text);
+  --font-display: var(--font-red-hat-display);
+  --font-mono: var(--font-roboto-mono);
+}
 
 :root {
   color-scheme: light dark;
@@ -10,11 +17,6 @@
   box-sizing: border-box;
 }
 
-@theme inline {
-  --font-sans: var(--font-red-hat-text);
-  --font-display: var(--font-red-hat-display);
-  --font-mono: var(--font-roboto-mono);
-}
 
 body {
   margin: 0;

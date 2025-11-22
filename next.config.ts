@@ -1,7 +1,8 @@
 import type { NextConfig } from 'next'
+import createMDX from '@next/mdx'
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig
+const nextConfig: NextConfig = {};
+ 
+const withMDX = createMDX({})
+ 
+export default withMDX(nextConfig)
