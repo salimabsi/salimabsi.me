@@ -1,8 +1,9 @@
+
 export default function Home() {
   return (
     <div className="tracking-tight">
       <h1 className="text-xl font-bold font-display text-neutral-900 dark:text-neutral-100">
-        Hi, I’m Salim Absi 👋
+        Hi, I'm Salim Absi 👋
       </h1>
 
       <div className="mt-6 space-y-6 leading-relaxed text-neutral-700 dark:text-neutral-300">
@@ -11,9 +12,9 @@ export default function Home() {
         </p>
 
         <p>
-          I’ve been profissionally working in software development for ~5 years now. These days, I work mostly with <span className="font-mono text-rose-600 dark:text-rose-400">`Go`</span> for backend services and{' '}
+          I've been profissionally working in software development for ~5 years now. These days, I work mostly with <span className="font-mono text-rose-600 dark:text-rose-400">`Go`</span> for backend services and{' '}
           <span className="font-mono text-rose-600 dark:text-rose-400">`React`</span>, <span className="font-mono text-rose-600 dark:text-rose-400">`Next.js`</span>, and{' '}
-          <span className="font-mono text-rose-600 dark:text-rose-400">`Tailwind CSS`</span> for the frontend. Now, I’m focused on learning applied algorithms and advanced cloud-native architectures.
+          <span className="font-mono text-rose-600 dark:text-rose-400">`Tailwind CSS`</span> for the frontend. Now, I'm focused on learning applied algorithms and advanced cloud-native architectures.
         </p>
 
         <p>

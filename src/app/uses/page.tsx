@@ -5,12 +5,12 @@ const toolGroups = [
       {
         title: 'MacBook Pro 14" (M3 Pro)',
         link: 'https://www.apple.com/macbook-pro/',
-        description: "It’s my main machine for development and everything else. It’s fast, runs cool (I didn’t even know it had a fan until someone mentioned it), and the battery comfortably lasts over 12 hours when I’m out.",
+        description: "It's my main machine for development and everything else. It's fast, runs cool (I didn't even know it had a fan until someone mentioned it), and the battery comfortably lasts over 12 hours when I'm out.",
       },
       {
         title: 'RD320U｜32” 4K BenQ Monitor',
         link: 'https://www.benq.com/en-us/monitor/programming/rd320u.html',
-        description: "The best monitor I’ve ever used. The colors are almost identical to macOS, and it offers tons of modes to switch between — I mostly use the reading and coding modes. They add layers of eye protection, which really helps during long night sessions. With a single USB-C cable for both power and casting, I barely use the charger anymore except on short trips, and my desk stays clean.",
+        description: "The best monitor I've ever used. The colors are almost identical to macOS, and it offers tons of modes to switch between — I mostly use the reading and coding modes. They add layers of eye protection, which really helps during long night sessions. With a single USB-C cable for both power and casting, I barely use the charger anymore except on short trips, and my desk stays clean.",
       },
       {
         title: 'Logitech MX Master 3S',
@@ -30,17 +30,17 @@ const toolGroups = [
       {
         title: 'GoLand',
         link: 'https://www.jetbrains.com/go/',
-        description: 'I never use anything else for Go projects. The built-in tools make me feel like I’m in the best environment.',
+        description: "I never use anything else for Go projects. The built-in tools make me feel like I'm in the best environment.",
       },
       {
         title: 'TablePlus',
         link: 'https://tableplus.com/',
-        description: 'I use it to manage all databases, its simple and clean interface let me focus on the data rather than the tool itself. Never thought of something else.',
+        description: "I use it to manage all databases, its simple and clean interface let me focus on the data rather than the tool itself. Never thought of something else.",
       },
       {
         title: 'Atom One Dark Theme (Night Flat)',
         link: 'https://github.com/Binaryify/OneDark-Pro?tab=readme-ov-file#night-flat-theme',
-        description: 'I can’t work with JSX without it, my eyes love it, but for Go projects, I prefer JetBrains’ default dark theme.',
+        description: "I can't work with JSX without it, my eyes love it, but for Go projects, I prefer JetBrains' default dark theme.",
       },
       {
         title: 'Roboto Mono Font',
@@ -60,7 +60,7 @@ const toolGroups = [
       {
         title: 'Obsidian',
         link: 'https://obsidian.md/',
-        description: "I've been using Notion for a long time for my notes and random silly things, but I found Obsidian much better. The files are in markdown, which keeps me focused on the content rather than all the extra features I don’t really need.",
+        description: "I've been using Notion for a long time for my notes and random silly things, but I found Obsidian much better. The files are in markdown, which keeps me focused on the content rather than all the extra features I don't really need.",
       },
       {
         title: 'CleanShot X',
@@ -75,7 +75,7 @@ const toolGroups = [
       {
         title: 'ChatGPT Atlas',
         link: 'https://chatgpt.com/atlas/',
-        description: "I used to read the full docs of everything I work with, usually with ChatGPT and Claude’s assistance, but now Atlas solved the problem. The built-in \"Ask ChatGPT\" side window has page and selection awareness. I just select and ask, it's that simple. I never close it.",
+        description: "I used to read the full docs of everything I work with, usually with ChatGPT and Claude's assistance, but now Atlas solved the problem. The built-in \"Ask ChatGPT\" side window has page and selection awareness. I just select and ask, it's that simple. I never close it.",
       },
     ],
   },
