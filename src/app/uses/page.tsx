@@ -10,12 +10,12 @@ const toolGroups = [
       {
         title: 'RD320U｜32” 4K BenQ Monitor',
         link: 'https://www.benq.com/en-us/monitor/programming/rd320u.html',
-        description: "The best monitor I've ever used. The colors are almost identical to macOS, and it offers tons of modes to switch between — I mostly use the reading and coding modes. They add layers of eye protection, which really helps during long night sessions. With a single USB-C cable for both power and casting, I barely use the charger anymore except on short trips, and my desk stays clean.",
+        description: "The best monitor I've ever used. The colors feel identical to my mac. It offers tons of modes to switch between, I mostly use the reading and coding modes. They add layers of eye protection, which really helps during long sessions. I like the single USB-C cable that handles both power and casting, I don't use the charger anymore except on short trips.",
       },
       {
         title: 'Logitech MX Master 3S',
         link: 'https://www.logitech.com/shop/p/mx-master-3s',
-        description: 'It fits perfectly in my hand. The customizable buttons and smooth scrolling make navigating through code and documents a breeze. I like it.',
+        description: 'It fits perfectly in my hand. The customizable buttons and smooth scrolling make navigating through code and web pages easier. I like it.',
       },
     ],
   },
@@ -25,27 +25,27 @@ const toolGroups = [
       {
         title: 'Cursor',
         link: 'https://cursor.so/',
-        description: 'I regret not switching from VS Code to Cursor earlier, the smart autocomplete and its huge context awareness make a big difference for me.',
+        description: 'I regret not switching from VS Code to Cursor earlier. The smart autocomplete and its huge context awareness make a big difference for me, especially for frontend stuff.',
       },
       {
         title: 'GoLand',
         link: 'https://www.jetbrains.com/go/',
-        description: "I never use anything else for Go projects. The built-in tools make me feel like I'm in the best environment.",
+        description: "I never use anything else for Go projects. The built-in tools make me feel like I'm in the right Go environment, everything is close at hand.",
       },
       {
         title: 'TablePlus',
         link: 'https://tableplus.com/',
-        description: "I use it to manage all databases, its simple and clean interface let me focus on the data rather than the tool itself. Never thought of something else.",
+        description: "I use it to manage all databases. Its simple and clean interface lets me focus on the data rather than the tool itself. It does the job, and I never thought of something else.",
       },
       {
         title: 'Atom One Dark Theme (Night Flat)',
         link: 'https://github.com/Binaryify/OneDark-Pro?tab=readme-ov-file#night-flat-theme',
-        description: "I can't work with JSX without it, my eyes love it, but for Go projects, I prefer JetBrains' default dark theme.",
+        description: "I can't work with JSX without it, my eyes love it. But for Go projects, I prefer JetBrains' default dark theme.",
       },
       {
         title: 'Roboto Mono Font',
         link: 'https://fonts.google.com/specimen/Roboto+Mono',
-        description: 'I tried many fonts, but this one feels just right for coding, I can quickly read and scan the code easily with it.',
+        description: "I've tried many fonts, but this one works best for me. It lets me quickly scan code, which helps a lot.",
       },
     ],
   },
@@ -58,6 +58,11 @@ const toolGroups = [
         description: 'I literally keep everything in it, passwords, secure notes, documents, silly photos of myself, and even certificates. I cannot imagine my digital life without it.',
       },
       {
+        title: 'Raycast',
+        link: 'https://www.raycast.com/',
+        description: "What a tool! I didn't imagine there was one like it. I use it for everything, launching apps, running actions, window management, and many other cool features I discover daily. It does everything I need and more.",
+      },
+      {
         title: 'Obsidian',
         link: 'https://obsidian.md/',
         description: "I've been using Notion for a long time for my notes and random silly things, but I found Obsidian much better. The files are in markdown, which keeps me focused on the content rather than all the extra features I don't really need.",
@@ -65,12 +70,7 @@ const toolGroups = [
       {
         title: 'CleanShot X',
         link: 'https://cleanshot.com/',
-        description: "A one-time purchase I use all the time. The annotation editor that pops up right after taking the screenshot is super handy, it lets me quickly write notes, highlight things, and share with others instantly. I love it.",
-      },
-      {
-        title: 'Raycast',
-        link: 'https://www.raycast.com/',
-        description: "I didn't imagine there was a tool like it. I use it for everything – launching apps, quick calculations, viewing clipboard history, and many other I don't remember cool features.",
+        description: "I tried it once and immediately bought the lifetime license. The annotation editor that pops up right after taking the screenshot is awesome. It lets me quickly write notes, highlight the things I want, and share with others instantly. I love it.",
       },
       {
         title: 'ChatGPT Atlas',
