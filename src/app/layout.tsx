@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import Script from 'next/script'
 import { Red_Hat_Text, Red_Hat_Display, Roboto_Mono } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
 import { ThemeToggle } from '@/components/theme-toggle'
@@ -69,6 +70,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </ThemeProvider>
       </body>
+      <Script
+        defer
+        src="https://cloud.umami.is/script.js"
+        data-website-id="8cf01282-6068-43be-a665-6215996a7bcf"
+      />
     </html>
   )
 }
