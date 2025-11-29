@@ -8,7 +8,7 @@ export default function Home() {
 
       <div className="mt-6 space-y-6 leading-relaxed text-neutral-700 dark:text-neutral-300">
         <p>
-          I'm a full-stack developer. I build products the same way I learn things, with curiosity and true love, and we grow together.
+          I'm a full-stack developer, living in Turkey. I build products the same way I learn things, with curiosity and true love, and we grow together.
         </p>
 
         <p>
