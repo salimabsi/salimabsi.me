@@ -7,7 +7,6 @@ import { ThemeProvider } from '@/components/theme-provider'
 import { ThemeToggle } from '@/components/theme-toggle'
 import { NavLinks } from '@/components/nav-links'
 import { cn } from '@/lib/utils'
-
 import './globals.css'
 
 const redHatText = Red_Hat_Text({
@@ -38,11 +37,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={cn(redHatText.variable, redHatDisplay.variable, robotoMono.variable, 'bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 antialiased font-sans')}
       >
-        <ThemeProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           <div className="flex min-h-screen justify-center px-6 py-16">
             <div className="w-full max-w-2xl space-y-16">
               <header className="flex items-center justify-between gap-8">
