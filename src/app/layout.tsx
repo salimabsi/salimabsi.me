@@ -39,7 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={cn(redHatText.variable, redHatDisplay.variable, robotoMono.variable, 'bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 antialiased font-sans')}
+        className={cn(redHatText.variable, redHatDisplay.variable, robotoMono.variable, 'bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 antialiased font-sans selection:text-white selection:bg-rose-500')}
       >
         <ThemeProvider
           attribute="class"
