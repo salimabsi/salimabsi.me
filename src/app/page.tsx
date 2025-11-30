@@ -21,7 +21,7 @@ export default function Home() {
           In my free time, you can find me testing internal std libs, automating random things, or in the kitchen making{' '}
           <span className="relative inline-block">
             <span className="relative z-10">things that make me happy</span>
-            <span className="absolute bottom-0.5 left-0 w-full h-0.5 bg-linear-to-r from-amber-500 to-orange-600 dark:from-amber-400 dark:to-orange-500"></span>
+            <span className="absolute bottom-0.5 left-0 w-full h-0.5 bg-rose-600 dark:bg-rose-400"></span>
           </span>.
         </p>
       </div>
