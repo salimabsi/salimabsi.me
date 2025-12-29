@@ -2,22 +2,22 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import Script from 'next/script'
-import { Red_Hat_Text, Red_Hat_Display, Roboto_Mono } from 'next/font/google'
+import { Roboto, Roboto_Condensed, Roboto_Mono } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
 import { ThemeToggle } from '@/components/theme-toggle'
 import { NavLinks } from '@/components/nav-links'
 import { cn } from '@/lib/utils'
 import './globals.css'
 
-const redHatText = Red_Hat_Text({
-  variable: '--font-red-hat-text',
+const roboto = Roboto({
+  variable: '--font-roboto',
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   display: 'swap',
 })
 
-const redHatDisplay = Red_Hat_Display({
-  variable: '--font-red-hat-display',
+const robotoCondensed = Roboto_Condensed({
+  variable: '--font-roboto-condensed',
   subsets: ['latin'],
   weight: ['700'],
   display: 'swap',
@@ -39,7 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={cn(redHatText.variable, redHatDisplay.variable, robotoMono.variable, 'bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 antialiased font-sans selection:text-white selection:bg-rose-500')}
+        className={cn(roboto.variable, robotoCondensed.variable, robotoMono.variable, 'bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 antialiased font-sans selection:text-white selection:bg-rose-500')}
       >
         <ThemeProvider
           attribute="class"

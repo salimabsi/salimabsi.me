@@ -83,7 +83,7 @@ const toolGroups = [
 
 export default function UsesPage() {
   return (
-    <section className="space-y-8">
+    <section className="space-y-8 leading-relaxed">
       <header className="space-y-2">
         <h1 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-display">Uses</h1>
         <p className="text-neutral-600 dark:text-neutral-300">
