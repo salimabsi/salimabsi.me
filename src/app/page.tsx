@@ -8,21 +8,17 @@ export default function Home() {
 
       <div className="mt-6 space-y-6 leading-relaxed text-neutral-700 dark:text-neutral-300">
         <p>
-          I'm a full-stack developer, living in Turkey. I build products the same way I learn things, with curiosity and true love, and we grow together.
+          I'm a Software Engineer based in Turkey. I help companies build reliable and performant business applications, currently focused on cloud-native systems.
         </p>
 
         <p>
-          I've been profissionally working in software development for ~5 years now. These days, I work mostly with <span className="font-mono text-rose-600 dark:text-rose-400">`Go`</span> for backend services and{' '}
+          I've been professionally working in software development for ~5 years now. These days, I work mostly with <span className="font-mono text-rose-600 dark:text-rose-400">`Java`</span> and <span className="font-mono text-rose-600 dark:text-rose-400">`Go`</span> for the backend and{' '}
           <span className="font-mono text-rose-600 dark:text-rose-400">`React`</span>, <span className="font-mono text-rose-600 dark:text-rose-400">`Next.js`</span>, and{' '}
-          <span className="font-mono text-rose-600 dark:text-rose-400">`Tailwind CSS`</span> for the frontend. Now, I'm focused on learning applied algorithms and advanced cloud-native architectures.
+          <span className="font-mono text-rose-600 dark:text-rose-400">`Tailwind CSS`</span> for the frontend.
         </p>
 
         <p>
-          In my free time, you can find me testing internal std libs, automating random things, or in the kitchen making{' '}
-          <span className="relative inline-block">
-            <span className="relative z-10">things that make me happy</span>
-            <span className="absolute bottom-0.5 left-0 w-full h-0.5 bg-rose-600 dark:bg-rose-400"></span>
-          </span>.
+          Outside of work, you might find me reading open source projects, automating silly random tasks, or in the kitchen making hot drinks.
         </p>
       </div>
 
