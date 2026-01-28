@@ -2,31 +2,16 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import Script from 'next/script'
-import { Roboto, Roboto_Condensed, Roboto_Mono } from 'next/font/google'
+import { Nunito } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
 import { ThemeToggle } from '@/components/theme-toggle'
 import { NavLinks } from '@/components/nav-links'
 import { cn } from '@/lib/utils'
 import './globals.css'
 
-const roboto = Roboto({
-  variable: '--font-roboto',
+const nunito = Nunito({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
-  display: 'swap',
-})
-
-const robotoCondensed = Roboto_Condensed({
-  variable: '--font-roboto-condensed',
-  subsets: ['latin'],
-  weight: ['700'],
-  display: 'swap',
-})
-
-const robotoMono = Roboto_Mono({
-  variable: '--font-roboto-mono',
-  subsets: ['latin'],
-  weight: ['400'],
   display: 'swap',
 })
 
@@ -39,14 +24,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={cn(roboto.variable, robotoCondensed.variable, robotoMono.variable, 'bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 antialiased font-sans selection:text-white selection:bg-rose-500')}
+        className={cn(
+          nunito.className,
+          'bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 antialiased selection:text-white selection:bg-rose-500'
+        )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <div className="flex min-h-screen justify-center px-6 py-16">
             <div className="w-full max-w-2xl space-y-16">
               <header className="flex items-center justify-between gap-8">

@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      <h1 className="text-xl font-bold font-display text-neutral-900 dark:text-neutral-100">
+      <h1 className="text-xl font-bold text-neutral-900 dark:text-neutral-100">
         Hi, I'm Salim Absi.
       </h1>
 

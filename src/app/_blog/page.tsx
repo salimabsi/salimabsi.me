@@ -19,7 +19,7 @@ export default async function BlogPage() {
   return (
     <section className="space-y-8">
       <header className="space-y-2">
-        <h1 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-display">
+        <h1 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100">
           Blog
         </h1>
         <p className="text-neutral-600 dark:text-neutral-300">
@@ -39,7 +39,7 @@ export default async function BlogPage() {
                   <p className="text-xs text-neutral-500 dark:text-neutral-400 font-mono tabular-nums">
                     {formatDate(post.metadata.date)}
                   </p>
-                  <Link key={post.slug} href={`/blog/${post.slug}`} className='text-xl font-medium text-neutral-900 dark:text-neutral-100 font-display hover:underline hover:text-neutral-600 dark:hover:text-neutral-300'>
+                  <Link key={post.slug} href={`/blog/${post.slug}`} className='text-xl font-medium text-neutral-900 dark:text-neutral-100 hover:underline hover:text-neutral-600 dark:hover:text-neutral-300'>
                     {post.metadata.title}
                   </Link>
                 </div>

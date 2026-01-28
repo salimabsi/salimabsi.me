@@ -97,7 +97,7 @@ export default function UsesPage() {
   return (
     <section className="space-y-8 leading-relaxed">
       <header className="space-y-2">
-        <h1 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 font-display">
+        <h1 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100">
           Uses
         </h1>
         <p className="text-neutral-600 dark:text-neutral-300">
@@ -108,7 +108,7 @@ export default function UsesPage() {
       <div className="space-y-8">
         {toolGroups.map((group) => (
           <div key={group.category} className="space-y-5">
-            <h2 className="text-xl font-bold text-neutral-900 dark:text-neutral-100 font-display">
+            <h2 className="text-xl font-bold text-neutral-900 dark:text-neutral-100">
               {group.category}
             </h2>
             <div className="space-y-4">
@@ -116,7 +116,7 @@ export default function UsesPage() {
                 <div key={tool.title} className="flex gap-3">
                   <span className="text-neutral-400  mt-0.5">-</span>
                   <div className="flex-1 space-y-1">
-                    <h3 className="font-bold font-display">
+                    <h3 className="font-bold">
                       <a
                         href={tool.link}
                         target="_blank"

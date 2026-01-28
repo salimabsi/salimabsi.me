@@ -3,12 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme inline {
-  --font-sans: var(--font-roboto);
-  --font-display: var(--font-roboto-condensed);
-  --font-mono: var(--font-roboto-mono);
-}
-
 :root {
   color-scheme: light dark;
 }
