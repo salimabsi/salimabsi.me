@@ -8,7 +8,7 @@ export default function Home() {
       <div className="mt-6 space-y-6 leading-relaxed text-neutral-700 dark:text-neutral-300">
         <p>
           I'm based in Turkey. I used to work as a full-stack developer, but these days I'm more
-          into cloud, infrastructure, and distributed systems, the stuff that runs the things.
+          into cloud, infrastructure, and distributed systems, the underlying stuff that runs everything.
         </p>
 
         <p>
@@ -20,7 +20,7 @@ export default function Home() {
           >
             CNCF
           </a>{' '}
-          like Kubernetes and others in that space. I'm still learning, but I'll figure it out.
+          like Kubernetes and others in that space. I'm still learning, still figuring things out.
         </p>
 
         <p>When I'm not doing that, I'm probably in the gym or getting some more sleep.</p>
