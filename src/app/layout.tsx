@@ -48,7 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </Link>
                 </div>
                 <nav className="flex items-center gap-6">
-                  <NavLinks />
+                  {/* <NavLinks /> */}
                   <ThemeToggle />
                 </nav>
               </header>
