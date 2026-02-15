@@ -20,7 +20,7 @@ export default function Home() {
           >
             CNCF
           </a>{' '}
-          like Kubernetes and others in that space. I'm still learning, still figuring things out.
+          like Kubernetes and others in that space.
         </p>
 
         <p>When I'm not doing that, I'm probably in the gym or getting some more sleep.</p>
