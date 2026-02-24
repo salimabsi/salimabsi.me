@@ -7,7 +7,7 @@ export default function Home() {
 
       <div className="mt-6 space-y-6 leading-relaxed text-neutral-700 dark:text-neutral-300">
         <p>
-          I'm based in Turkey. I used to work as a full-stack developer, but these days I'm more
+          I live in Turkey. I used to work as a full-stack developer, but these days I'm more
           into cloud, infrastructure, and distributed systems, the underlying stuff that runs everything.
         </p>
 
