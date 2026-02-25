@@ -7,20 +7,22 @@ export default function Home() {
 
       <div className="mt-6 space-y-6 leading-relaxed text-neutral-700 dark:text-neutral-300">
         <p>
-          I live in Turkey. I used to work as a full-stack developer, but these days I'm more
-          into cloud, infrastructure, and distributed systems, the underlying stuff that runs everything.
+          I live in Turkey. I used to work as a full-stack developer, but these days I'm more into
+          cloud, infrastructure, and distributed systems.
         </p>
 
         <p>
-          I spend most of my day reading code and documentation, trying to understand open source
-          projects from{' '}
+          I spend most of my day reading code and refs, and learning from open source projects in
+          the{' '}
           <a
-            href="https://www.cncf.io/projects"
+            href="https://www.cncf.io/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-neutral-900 dark:text-neutral-100 underline hover:text-neutral-600 dark:hover:text-neutral-300"
           >
             CNCF
           </a>{' '}
-          like Kubernetes and others in that space.
+          ecosystem like Kubernetes and others.
         </p>
 
         <p>When I'm not doing that, I'm probably in the gym or getting some more sleep.</p>
