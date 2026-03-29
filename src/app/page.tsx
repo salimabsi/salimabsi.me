@@ -11,7 +11,7 @@ export default function Home() {
           cloud, infrastructure, and distributed systems.
         </p>
 
-        <p>
+        {/* <p>
           I spend most of my day reading code and refs, and learning from open source projects in
           the{' '}
           <a
@@ -25,7 +25,7 @@ export default function Home() {
           ecosystem like Kubernetes and others.
         </p>
 
-        <p>When I'm not doing that, I'm probably in the gym or getting some more sleep.</p>
+        <p>When I'm not doing that, I'm probably in the gym or getting some more sleep.</p> */}
       </div>
 
       <div className="mt-10 flex items-center gap-4">
